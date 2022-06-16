@@ -15,6 +15,7 @@ Inputs - Required:
 Inputs - Optional: 
 
  - `enable_route_53` - Disable if using CloudFlare or other DNS (default = 1, to disable, set = 0)
+ - `internal_lb` - Determine whether the load balancer is internal-only facing (default = true)
 
 Outputs:
 
