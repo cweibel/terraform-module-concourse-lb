@@ -18,4 +18,4 @@ Inputs - Optional:
 
 Outputs:
 
- - None
+ - `dns_name` - The A Record for the created load balancer

@@ -85,3 +85,5 @@ resource "aws_route53_record" "concourse_alb_record" {
   records = ["${aws_lb.concourse_alb.dns_name}"]
 }
 
+
+output "dns_name" {value = aws_lb.concourse_alb.dns_name}
