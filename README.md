@@ -20,3 +20,4 @@ Inputs - Optional:
 Outputs:
 
  - `dns_name` - The A Record for the created load balancer
+ - `lb_name` - Name of the load balancer.  Map this value in your cloud config
